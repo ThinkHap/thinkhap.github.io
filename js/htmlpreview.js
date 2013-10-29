@@ -111,7 +111,7 @@ var HTMLPreview = {
         },
 
         submitform: function() {
-                location.href = '/?' + document.getElementById('file').value;
+                location.href = '/htmlpreview.html?' + document.getElementById('file').value;
                 return false;
         },
 
