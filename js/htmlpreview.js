@@ -43,7 +43,7 @@ var HTMLPreview = {
                         if(frame[i].src) {
                                 src = frame[i].src; //Get absolute URL
                                 if(src.indexOf('//raw.github.com') > 0 || src.indexOf('//bitbucket.org') > 0) { //Check if it's from raw.github.com or bitbucket.org
-                                        frame[i].src = 'http://' + location.hostname + location.pathname + '?' + src; //Then rewrite URL so it can be loaded using YQL
+                                        frame[i].src = 'http://' + location.hostname + location.pathname + 'htmlpreview.html?' + src; //Then rewrite URL so it can be loaded using YQL
                                 }
                         }
                 }
@@ -55,7 +55,7 @@ var HTMLPreview = {
                                         a[i].href = 'http://' + location.hostname + location.pathname + location.search + '#' + a[i].hash.substring(1); //Then rewrite URL with support for empty anchor
                                 }
                                 else if(href.indexOf('//raw.github.com') > 0 || href.indexOf('//bitbucket.org') > 0) { //Check if it's from raw.github.com or bitbucket.org
-                                        a[i].href = 'http://' + location.hostname + location.pathname + '?' + href; //Then rewrite URL so it can be loaded using YQL
+                                        a[i].href = 'http://' + location.hostname + location.pathname + 'htmlpreview.html?' + href; //Then rewrite URL so it can be loaded using YQL
                                 }
                         }
                 }
