@@ -7,9 +7,10 @@
 - 熟练使用vim, git。 熟悉html5, css3, javascript。
 
 ## 主要项目
-- 旺旺多人语音视频(<开发中>)
+- 旺旺多人语音视频(<http://meeting.wangwang.taobao.com/page/index.html>)
  - 时间：2013.8-持续  前端4人
  - 基于客户端及服务端的api开发。涉及到多事件，窗口，消息，人员的处理。
+ - 负责PPT,音频及会场管理。
 
 - 淘宝专版页面(<http://tbsweb.browser.taobao.com/channel/tbhome.htm>)
  - 时间：2013.7  前端3人
