@@ -12,7 +12,7 @@
  - 可视化展示用户账户资产信息。使用jquery + seajs
  - 负责首页，总览，预算等页面的前端实现。将一些通用模块做成组件，方便调用。
 
-- 旺旺多人语音视频(<http://meeting.wangwang.taobao.com/page/index.html>)
+- 旺旺多人语音视频(<http://meeting.wangwang.taobao.com/page/index.html>) 需要从旺旺中打开
  - 时间：2013.8-2013.11  前端4人
  - 基于客户端及服务端的api开发。涉及到多事件，窗口，消息，人员的处理。
  - 负责PPT,音频及会场管理。
